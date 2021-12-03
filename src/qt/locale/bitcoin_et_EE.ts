@@ -130,8 +130,8 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
-        <translation>Finalcoin</translation>
+        <source>Zimbcoin</source>
+        <translation>Zimbcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -760,8 +760,8 @@
         <translation>Valikud:</translation>
     </message>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Finalcoin Core</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Zimbcoin Core</translation>
     </message>
     <message>
         <source>Information</source>

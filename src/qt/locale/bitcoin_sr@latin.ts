@@ -158,16 +158,16 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Finalcoin address</source>
-        <translation>Pošalji novčiće na Finalcoin adresu</translation>
+        <source>Send coins to a Zimbcoin address</source>
+        <translation>Pošalji novčiće na Zimbcoin adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
-        <translation>Finalcoin</translation>
+        <source>Zimbcoin</source>
+        <translation>Zimbcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -406,8 +406,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Finalcoin Core</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Zimbcoin Core</translation>
     </message>
     <message>
         <source>Information</source>

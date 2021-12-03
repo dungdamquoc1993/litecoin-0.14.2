@@ -54,10 +54,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || IsArgSet("-?") || IsArgSet("-h") || IsArgSet("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = strprintf(_("%s finalcoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = strprintf(_("%s zimbcoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  finalcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded finalcoin transaction") + "\n" +
-              "  finalcoin-tx [options] -create [commands]   " + _("Create hex-encoded finalcoin transaction") + "\n" +
+              "  zimbcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded zimbcoin transaction") + "\n" +
+              "  zimbcoin-tx [options] -create [commands]   " + _("Create hex-encoded zimbcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

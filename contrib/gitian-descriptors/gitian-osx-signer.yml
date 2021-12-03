@@ -1,5 +1,5 @@
 ---
-name: "finalcoin-dmg-signer"
+name: "zimbcoin-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/finalcoin-project/finalcoin-detached-sigs.git"
+- "url": "https://github.com/zimbcoin-project/zimbcoin-detached-sigs.git"
   "dir": "signature"
 files:
-- "finalcoin-osx-unsigned.tar.gz"
+- "zimbcoin-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,8 +27,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=finalcoin-osx-unsigned.tar.gz
-  SIGNED=finalcoin-osx-signed.dmg
+  UNSIGNED=zimbcoin-osx-unsigned.tar.gz
+  SIGNED=zimbcoin-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

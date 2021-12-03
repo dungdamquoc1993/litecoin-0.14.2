@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Finalcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Finalcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your Zimbcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Zimbcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Finalcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Finalcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your Zimbcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu Zimbcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -290,8 +290,8 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Finalcoin address</source>
-        <translation>Saada münte Finalcoini aadressile</translation>
+        <source>Send coins to a Zimbcoin address</source>
+        <translation>Saada münte Zimbcoini aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +314,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
-        <translation>Finalcoin</translation>
+        <source>Zimbcoin</source>
+        <translation>Zimbcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -342,12 +342,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Finalcoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Finalcoini aadressiga</translation>
+        <source>Sign messages with your Zimbcoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Zimbcoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Finalcoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Finalcoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Zimbcoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Zimbcoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,20 +366,20 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and finalcoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja finalcoini: URId)</translation>
+        <source>Request payments (generates QR codes and zimbcoin: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja zimbcoini: URId)</translation>
     </message>
     <message>
-        <source>Open a finalcoin: URI or payment request</source>
-        <translation>Ava finalcoini: URI või maksepäring</translation>
+        <source>Open a zimbcoin: URI or payment request</source>
+        <translation>Ava zimbcoini: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Finalcoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Finalcoini võrku</numerusform><numerusform>%n aktiivset ühendust Finalcoini võrku</numerusform></translation>
+        <source>%n active connection(s) to Zimbcoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Zimbcoini võrku</numerusform><numerusform>%n aktiivset ühendust Zimbcoini võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Finalcoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Finalcoin aadress.</translation>
+        <source>The entered address "%1" is not a valid Zimbcoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne Zimbcoin aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,8 +756,8 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Finalcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Finalcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Zimbcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Zimbcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -855,7 +855,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Finalcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zimbcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1337,8 +1337,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Finalcoin address</source>
-        <translation>Hoiatus: Ebakorrektne Finalcoin aadress</translation>
+        <source>Warning: Invalid Zimbcoin address</source>
+        <translation>Hoiatus: Ebakorrektne Zimbcoin aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1417,8 +1417,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Finalcoin address to sign the message with</source>
-        <translation>Finalcoin aadress millega sõnum allkirjastada</translation>
+        <source>The Zimbcoin address to sign the message with</source>
+        <translation>Zimbcoin aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1449,8 +1449,8 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Finalcoin address</source>
-        <translation>Allkirjasta sõnum Finalcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Zimbcoin address</source>
+        <translation>Allkirjasta sõnum Zimbcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1469,12 +1469,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Finalcoin address the message was signed with</source>
-        <translation>Finalcoin aadress millega sõnum on allkirjastatud</translation>
+        <source>The Zimbcoin address the message was signed with</source>
+        <translation>Zimbcoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Finalcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Finalcoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Zimbcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Zimbcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1758,8 +1758,8 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Finalcoini tuumik</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Zimbcoini tuumik</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

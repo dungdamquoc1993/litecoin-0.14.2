@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/finalcoin
-src/finalcoind
-src/finalcoin-cli
-src/finalcoin-tx
-src/test/test_finalcoin
-src/test/test_finalcoin_fuzzy
-src/qt/test/test_finalcoin-qt
+src/zimbcoin
+src/zimbcoind
+src/zimbcoin-cli
+src/zimbcoin-tx
+src/test/test_zimbcoin
+src/test/test_zimbcoin_fuzzy
+src/qt/test/test_zimbcoin-qt
 
 # autoreconf
 Makefile.in
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-finalcoin-qt
-Finalcoin-Qt.app
+zimbcoin-qt
+Zimbcoin-Qt.app
 
 # Unit-tests
 Makefile.test
-finalcoin-qt_test
+zimbcoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -93,7 +93,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_finalcoin.coverage/
+test_zimbcoin.coverage/
 total.coverage/
 coverage_percent.txt
 

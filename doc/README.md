@@ -1,41 +1,41 @@
-Finalcoin Core 0.14.2
+Zimbcoin Core 0.14.2
 =====================
 
 Setup
 ---------------------
-Finalcoin Core is the original Finalcoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Finalcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Zimbcoin Core is the original Zimbcoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Zimbcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Finalcoin Core, visit [finalcoin.org](https://finalcoin.org).
+To download Zimbcoin Core, visit [zimbcoin.org](https://zimbcoin.org).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Finalcoin on your native platform.
+The following are some helpful notes on how to run Zimbcoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/finalcoin-qt` (GUI) or
-- `bin/finalcoind` (headless)
+- `bin/zimbcoin-qt` (GUI) or
+- `bin/zimbcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run finalcoin-qt.exe.
+Unpack the files into a directory, and then run zimbcoin-qt.exe.
 
 ### OS X
 
-Drag Finalcoin-Core to your applications folder, and then run Finalcoin-Core.
+Drag Zimbcoin-Core to your applications folder, and then run Zimbcoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [Finalcoin Wiki](https://finalcoin.info/)
+* See the documentation at the [Zimbcoin Wiki](https://zimbcoin.info/)
 for help and more information.
-* Ask for help on [#finalcoin](http://webchat.freenode.net?channels=finalcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=finalcoin).
-* Ask for help on the [FinalcoinTalk](https://finalcointalk.io/) forums.
+* Ask for help on [#zimbcoin](http://webchat.freenode.net?channels=zimbcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=zimbcoin).
+* Ask for help on the [ZimbcoinTalk](https://zimbcointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Finalcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Zimbcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -45,12 +45,12 @@ The following are developer notes on how to build Finalcoin on your native platf
 
 Development
 ---------------------
-The Finalcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Zimbcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/finalcoin/doxygen/)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/zimbcoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
 - [Travis CI](travis-ci.md)
@@ -61,8 +61,8 @@ The Finalcoin repo's [root README](/README.md) contains relevant information on 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [FinalcoinTalk](https://finalcointalk.io/) forums.
-* Discuss general Finalcoin development on #finalcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=finalcoin-dev).
+* Discuss on the [ZimbcoinTalk](https://zimbcointalk.io/) forums.
+* Discuss general Zimbcoin development on #zimbcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=zimbcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

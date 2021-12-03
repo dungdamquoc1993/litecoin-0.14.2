@@ -142,8 +142,8 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Finalcoin address</source>
-        <translation>Enviar monedas a una dirección Finalcoin</translation>
+        <source>Send coins to a Zimbcoin address</source>
+        <translation>Enviar monedas a una dirección Zimbcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
-        <translation>Finalcoin</translation>
+        <source>Zimbcoin</source>
+        <translation>Zimbcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Finalcoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Finalcoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Zimbcoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Zimbcoin para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Finalcoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Finalcoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Zimbcoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Zimbcoin concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -218,8 +218,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and finalcoin: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL's de Finalcoin)</translation>
+        <source>Request payments (generates QR codes and zimbcoin: URIs)</source>
+        <translation>Solicitar pagos (genera codigo QR y URL's de Zimbcoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -230,8 +230,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a finalcoin: URI or payment request</source>
-        <translation>Abrir un finalcoin: URI o petición de pago</translation>
+        <source>Open a zimbcoin: URI or payment request</source>
+        <translation>Abrir un zimbcoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -494,8 +494,8 @@
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically open the Finalcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Finalcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Zimbcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Zimbcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -589,8 +589,8 @@
         <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Finalcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Finalcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zimbcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Zimbcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1019,8 +1019,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Finalcoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Finalcoin</translation>
+        <source>Sign the message to prove you own this Zimbcoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Zimbcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1039,8 +1039,8 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Finalcoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Finalcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Zimbcoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Zimbcoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1123,8 +1123,8 @@
 </translation>
     </message>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Núcleo de Finalcoin</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Núcleo de Zimbcoin</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

@@ -1,42 +1,42 @@
-Finalcoin Core integration/staging tree
+Zimbcoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/finalcoin-project/finalcoin.svg?branch=master)](https://travis-ci.org/finalcoin-project/finalcoin)
+[![Build Status](https://travis-ci.org/zimbcoin-project/zimbcoin.svg?branch=master)](https://travis-ci.org/zimbcoin-project/zimbcoin)
 
-https://finalcoin.org
+https://zimbcoin.org
 
-What is Finalcoin?
+What is Zimbcoin?
 ----------------
 
-Finalcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Finalcoin uses peer-to-peer technology to operate
+Zimbcoin is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. Zimbcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Finalcoin Core is the name of open source
+out collectively by the network. Zimbcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Finalcoin Core software, see [https://finalcoin.org](https://finalcoin.org).
+the Zimbcoin Core software, see [https://zimbcoin.org](https://zimbcoin.org).
 
 License
 -------
 
-Finalcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Zimbcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/finalcoin-project/finalcoin/tags) are created
-regularly to indicate new official, stable release versions of Finalcoin Core.
+completely stable. [Tags](https://github.com/zimbcoin-project/zimbcoin/tags) are created
+regularly to indicate new official, stable release versions of Zimbcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/finalcoin-dev)
+The developer [mailing list](https://groups.google.com/forum/#!forum/zimbcoin-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #finalcoin-dev.
+Developer IRC can be found on Freenode at #zimbcoin-dev.
 
 Testing
 -------
@@ -70,7 +70,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Finalcoin periodically.
+Translations are converted to Zimbcoin periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
-        <translation>Finalcoin</translation>
+        <source>Zimbcoin</source>
+        <translation>Zimbcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -708,8 +708,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Finalcoin மையம்</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Zimbcoin மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

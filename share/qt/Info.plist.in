@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Finalcoin-Qt</string>
+  <string>Zimbcoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Finalcoin-Qt</string>
+  <string>Zimbcoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.finalcoin.Finalcoin-Qt</string>
+  <string>org.zimbcoin.Zimbcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.finalcoin.FinalcoinPayment</string>
+      <string>org.zimbcoin.ZimbcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>finalcoin</string>
+        <string>zimbcoin</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.finalcoin.paymentrequest</string>
+      <string>org.zimbcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Finalcoin payment request</string>
+      <string>Zimbcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-finalcoin-payment-request</string>
+        <string>application/x-zimbcoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>finalcoinpaymentrequest</string>
+          <string>zimbcoinpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.finalcoin.paymentrequest</string>
+        <string>org.zimbcoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

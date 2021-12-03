@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/finalcoin-project/finalcoin
+url=https://github.com/zimbcoin-project/zimbcoin
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the finalcoin, gitian-builder, gitian.sigs.ltc, and finalcoin-detached-sigs.
+Run this script from the directory containing the zimbcoin, gitian-builder, gitian.sigs.ltc, and zimbcoin-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/finalcoin-project/finalcoin
+-u|--url	Specify the URL of the repository. Default is https://github.com/zimbcoin-project/zimbcoin
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -232,8 +232,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/finalcoin-project/gitian.sigs.ltc.git
-    git clone https://github.com/finalcoin-project/finalcoin-detached-sigs.git
+    git clone https://github.com/zimbcoin-project/gitian.sigs.ltc.git
+    git clone https://github.com/zimbcoin-project/zimbcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./finalcoin
+pushd ./zimbcoin
 git fetch
 git checkout ${COMMIT}
 popd
@@ -256,7 +256,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./finalcoin-binaries/${VERSION}
+	mkdir -p ./zimbcoin-binaries/${VERSION}
 	
 	# Build Dependencies
 	echo ""
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../finalcoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../zimbcoin/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -274,9 +274,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit finalcoin=${COMMIT} --url finalcoin=${url} ../finalcoin/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../finalcoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/finalcoin-*.tar.gz build/out/src/finalcoin-*.tar.gz ../finalcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit zimbcoin=${COMMIT} --url zimbcoin=${url} ../zimbcoin/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../zimbcoin/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/zimbcoin-*.tar.gz build/out/src/zimbcoin-*.tar.gz ../zimbcoin-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -284,10 +284,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit finalcoin=${COMMIT} --url finalcoin=${url} ../finalcoin/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../finalcoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/finalcoin-*-win-unsigned.tar.gz inputs/finalcoin-win-unsigned.tar.gz
-	    mv build/out/finalcoin-*.zip build/out/finalcoin-*.exe ../finalcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit zimbcoin=${COMMIT} --url zimbcoin=${url} ../zimbcoin/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../zimbcoin/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/zimbcoin-*-win-unsigned.tar.gz inputs/zimbcoin-win-unsigned.tar.gz
+	    mv build/out/zimbcoin-*.zip build/out/zimbcoin-*.exe ../zimbcoin-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -295,10 +295,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit finalcoin=${COMMIT} --url finalcoin=${url} ../finalcoin/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../finalcoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/finalcoin-*-osx-unsigned.tar.gz inputs/finalcoin-osx-unsigned.tar.gz
-	    mv build/out/finalcoin-*.tar.gz build/out/finalcoin-*.dmg ../finalcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit zimbcoin=${COMMIT} --url zimbcoin=${url} ../zimbcoin/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../zimbcoin/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/zimbcoin-*-osx-unsigned.tar.gz inputs/zimbcoin-osx-unsigned.tar.gz
+	    mv build/out/zimbcoin-*.tar.gz build/out/zimbcoin-*.dmg ../zimbcoin-binaries/${VERSION}
 	fi
 	popd
 
@@ -325,27 +325,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../finalcoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../zimbcoin/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../finalcoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../zimbcoin/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX	
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""	
-	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../finalcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../zimbcoin/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../finalcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../zimbcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../finalcoin/contrib/gitian-descriptors/gitian-osx-signer.yml	
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../zimbcoin/contrib/gitian-descriptors/gitian-osx-signer.yml	
 	popd
 fi
 
@@ -360,10 +360,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../finalcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../finalcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/finalcoin-*win64-setup.exe ../finalcoin-binaries/${VERSION}
-	    mv build/out/finalcoin-*win32-setup.exe ../finalcoin-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../zimbcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../zimbcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/zimbcoin-*win64-setup.exe ../zimbcoin-binaries/${VERSION}
+	    mv build/out/zimbcoin-*win32-setup.exe ../zimbcoin-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -371,9 +371,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../finalcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../finalcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/finalcoin-osx-signed.dmg ../finalcoin-binaries/${VERSION}/finalcoin-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../zimbcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../zimbcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/zimbcoin-osx-signed.dmg ../zimbcoin-binaries/${VERSION}/zimbcoin-${VERSION}-osx.dmg
 	fi
 	popd
 

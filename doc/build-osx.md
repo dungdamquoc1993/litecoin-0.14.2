@@ -24,17 +24,17 @@ In case you want to build the disk image with `make deploy` (.dmg / optional), y
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Finalcoin Core
+Build Zimbcoin Core
 ------------------------
 
-1. Clone the finalcoin source code and cd into `finalcoin`
+1. Clone the zimbcoin source code and cd into `zimbcoin`
 
-        git clone https://github.com/finalcoin-project/finalcoin
-        cd finalcoin
+        git clone https://github.com/zimbcoin-project/zimbcoin
+        cd zimbcoin
 
-2.  Build finalcoin-core:
+2.  Build zimbcoin-core:
 
-    Configure and build the headless finalcoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless zimbcoin binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -53,37 +53,37 @@ Build Finalcoin Core
 Running
 -------
 
-Finalcoin Core is now available at `./src/finalcoind`
+Zimbcoin Core is now available at `./src/zimbcoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=finalcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Finalcoin/finalcoin.conf"
+    echo -e "rpcuser=zimbcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Zimbcoin/zimbcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Finalcoin/finalcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Zimbcoin/zimbcoin.conf"
 
-The first time you run finalcoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run zimbcoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Finalcoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Zimbcoin/debug.log
 
 Other commands:
 -------
 
-    ./src/finalcoind -daemon # Starts the finalcoin daemon.
-    ./src/finalcoin-cli --help # Outputs a list of command-line options.
-    ./src/finalcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/zimbcoind -daemon # Starts the zimbcoin daemon.
+    ./src/zimbcoin-cli --help # Outputs a list of command-line options.
+    ./src/zimbcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for finalcoin development.
+You can use Qt Creator as an IDE, for zimbcoin development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "finalcoin-qt" as project name, enter src/qt as location
+4. Enter "zimbcoin-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

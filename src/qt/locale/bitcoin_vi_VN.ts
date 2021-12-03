@@ -186,8 +186,8 @@
         <translation>Đánh chỉ số (indexing) lại các khối (blocks) trên ổ đĩa ...</translation>
     </message>
     <message>
-        <source>Send coins to a Finalcoin address</source>
-        <translation>Gửi coins đến tài khoản Finalcoin</translation>
+        <source>Send coins to a Zimbcoin address</source>
+        <translation>Gửi coins đến tài khoản Zimbcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +206,8 @@
         <translation>&amp;Tin nhắn xác thực</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
-        <translation>Finalcoin</translation>
+        <source>Zimbcoin</source>
+        <translation>Zimbcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -234,12 +234,12 @@
         <translation>Mã hoá các khoá bí mật trong Ví của bạn.</translation>
     </message>
     <message>
-        <source>Sign messages with your Finalcoin addresses to prove you own them</source>
-        <translation>Dùng địa chỉ Finalcoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
+        <source>Sign messages with your Zimbcoin addresses to prove you own them</source>
+        <translation>Dùng địa chỉ Zimbcoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Finalcoin addresses</source>
-        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Finalcoin xác định.</translation>
+        <source>Verify messages to ensure they were signed with specified Zimbcoin addresses</source>
+        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Zimbcoin xác định.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -258,8 +258,8 @@
         <translation>Thanh công cụ (toolbar)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and finalcoin: URIs)</source>
-        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Finalcoin: URLs)</translation>
+        <source>Request payments (generates QR codes and zimbcoin: URIs)</source>
+        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Zimbcoin: URLs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -270,8 +270,8 @@
         <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để nhận.</translation>
     </message>
     <message>
-        <source>Open a finalcoin: URI or payment request</source>
-        <translation>Mở finalcoin:URL hoặc yêu cầu thanh toán</translation>
+        <source>Open a zimbcoin: URI or payment request</source>
+        <translation>Mở zimbcoin:URL hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -536,8 +536,8 @@
         <translation>Ví</translation>
     </message>
     <message>
-        <source>Connect to the Finalcoin network through a SOCKS5 proxy.</source>
-        <translation>Kết nối đến máy chủ Finalcoin thông qua SOCKS5 proxy.</translation>
+        <source>Connect to the Zimbcoin network through a SOCKS5 proxy.</source>
+        <translation>Kết nối đến máy chủ Zimbcoin thông qua SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1018,8 +1018,8 @@
         <translation>Lựa chọn:</translation>
     </message>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Finalcoin Core</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Zimbcoin Core</translation>
     </message>
     <message>
         <source>(default: %u)</source>

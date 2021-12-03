@@ -1,10 +1,10 @@
 <!--- Remove sections that do not apply -->
 
-This issue tracker is only for technical issues related to finalcoin-core.
+This issue tracker is only for technical issues related to zimbcoin-core.
 
-General finalcoin questions and/or support requests and are best directed to the [finalcointalk.io forums](https://finalcointalk.io/).
+General zimbcoin questions and/or support requests and are best directed to the [zimbcointalk.io forums](https://zimbcointalk.io/).
 
-For reporting security issues, please contact the Finalcoin developers on the #finalcoin-dev Freenode IRC channel or alternatively you can email us at contact@finalcoin.org.
+For reporting security issues, please contact the Zimbcoin developers on the #zimbcoin-dev Freenode IRC channel or alternatively you can email us at contact@zimbcoin.org.
 
 ### Describe the issue
 
@@ -23,7 +23,7 @@ Tell us what happens instead
 ### Screenshots.
 If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
 
-### What version of finalcoin-core are you using?
+### What version of zimbcoin-core are you using?
 List the version number/commit ID, and if it is an official binary, self compiled or a distribution package such as PPA.
 
 ### Machine specs:

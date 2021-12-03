@@ -114,8 +114,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
-        <translation>Finalcoin</translation>
+        <source>Zimbcoin</source>
+        <translation>Zimbcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -484,8 +484,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Craidd Finalcoin</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Craidd Zimbcoin</translation>
     </message>
     <message>
         <source>Information</source>

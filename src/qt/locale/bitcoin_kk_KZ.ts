@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
+        <source>Zimbcoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>

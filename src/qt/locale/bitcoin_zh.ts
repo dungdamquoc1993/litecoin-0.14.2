@@ -107,7 +107,7 @@
         <translation>仅支付全额的%1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Finalcoin address</source>
+        <source>Warning: Invalid Zimbcoin address</source>
         <translation>警告：莱特币地址无效</translation>
     </message>
     </context>

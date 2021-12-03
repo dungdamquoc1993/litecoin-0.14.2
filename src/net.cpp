@@ -1466,7 +1466,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Finalcoin " + FormatFullVersion();
+        std::string strDesc = "Zimbcoin " + FormatFullVersion();
 
         try {
             while (true) {

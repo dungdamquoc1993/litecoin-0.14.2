@@ -506,8 +506,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/finalcoin-project/finalcoin>";
-    const std::string URL_WEBSITE = "<https://finalcoin.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/zimbcoin-project/zimbcoin>";
+    const std::string URL_WEBSITE = "<https://zimbcoin.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -788,7 +788,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Finalcoin version %s\n", FormatFullVersion());
+    LogPrintf("Zimbcoin version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only

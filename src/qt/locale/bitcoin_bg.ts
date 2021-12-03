@@ -62,12 +62,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your Finalcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Zimbcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Finalcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са Вашите Finalcoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
+        <source>These are your Zimbcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите Zimbcoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -318,7 +318,7 @@
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
-        <source>Send coins to a Finalcoin address</source>
+        <source>Send coins to a Zimbcoin address</source>
         <translation>Изпращане към Биткоин адрес</translation>
     </message>
     <message>
@@ -342,7 +342,7 @@
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Finalcoin</source>
+        <source>Zimbcoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -370,12 +370,12 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Finalcoin addresses to prove you own them</source>
-        <translation>Пишете съобщения със своя Finalcoin адрес за да докажете,че е ваш.</translation>
+        <source>Sign messages with your Zimbcoin addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя Zimbcoin адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Finalcoin addresses</source>
-        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Finalcoin адреси.</translation>
+        <source>Verify messages to ensure they were signed with specified Zimbcoin addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Zimbcoin адреси.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -394,8 +394,8 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and finalcoin: URIs)</source>
-        <translation>Изискване на плащания(генерира QR кодове и Finalcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and zimbcoin: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и Zimbcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -406,8 +406,8 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
-        <source>Open a finalcoin: URI or payment request</source>
-        <translation>Отворете Finalcoin: URI  или заявка за плащане</translation>
+        <source>Open a zimbcoin: URI or payment request</source>
+        <translation>Отворете Zimbcoin: URI  или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -450,8 +450,8 @@
         <translation>Синхронизиран</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Finalcoin command-line options</source>
-        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Finalcoin команди</translation>
+        <source>Show the %1 help message to get a list with possible Zimbcoin command-line options</source>
+        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Zimbcoin команди</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -690,7 +690,7 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Finalcoin address.</source>
+        <source>The entered address "%1" is not a valid Zimbcoin address.</source>
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
@@ -904,16 +904,16 @@
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Finalcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Finalcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the Zimbcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Zimbcoin порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Finalcoin network through a SOCKS5 proxy.</source>
-        <translation>Свързване с Finalcoin мрежата чрез SOCKS5  прокси.</translation>
+        <source>Connect to the Zimbcoin network through a SOCKS5 proxy.</source>
+        <translation>Свързване с Zimbcoin мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1007,7 +1007,7 @@
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Finalcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zimbcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
@@ -1062,8 +1062,8 @@
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start finalcoin: click-to-pay handler</source>
-        <translation>Finalcoin не можe да се стартира: click-to-pay handler</translation>
+        <source>Cannot start zimbcoin: click-to-pay handler</source>
+        <translation>Zimbcoin не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1136,8 +1136,8 @@
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Finalcoin address (e.g. %1)</source>
-        <translation>Въведете Finalcoin адрес (например: %1)</translation>
+        <source>Enter a Zimbcoin address (e.g. %1)</source>
+        <translation>Въведете Zimbcoin адрес (например: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1689,8 +1689,8 @@
         <translation>Заявката за плащане е изтекла.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Finalcoin address</source>
-        <translation>Внимание: Невалиден Finalcoin адрес</translation>
+        <source>Warning: Invalid Zimbcoin address</source>
+        <translation>Внимание: Невалиден Zimbcoin адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1809,7 +1809,7 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Finalcoin address</source>
+        <source>Sign the message to prove you own this Zimbcoin address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1825,7 +1825,7 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Finalcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Zimbcoin address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
     </message>
     <message>
@@ -2346,8 +2346,8 @@
         <translation>Въведете Ваш публичен адрес</translation>
     </message>
     <message>
-        <source>Finalcoin Core</source>
-        <translation>Finalcoin ядро</translation>
+        <source>Zimbcoin Core</source>
+        <translation>Zimbcoin ядро</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

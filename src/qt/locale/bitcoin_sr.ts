@@ -130,8 +130,8 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Finalcoin address</source>
-        <translation>Пошаљите новац на finalcoin адресу</translation>
+        <source>Send coins to a Zimbcoin address</source>
+        <translation>Пошаљите новац на zimbcoin адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>

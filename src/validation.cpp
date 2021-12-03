@@ -47,7 +47,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "Finalcoin cannot be compiled without assertions."
+# error "Zimbcoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -88,7 +88,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "Finalcoin Signed Message:\n";
+const std::string strMessageMagic = "Zimbcoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1171,7 +1171,7 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
         return 0;
     CAmount nSubsidy;
     if (nHeight == 1)
-        nSubsidy = 21000000 * COIN;
+        nSubsidy = 50000000 * COIN;
     else
         nSubsidy = 100 * COIN;
     // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
@@ -3624,7 +3624,7 @@ bool CVerifyDB::VerifyDB(const CChainParams& chainparams, CCoinsView *coinsview,
 
     // Verify blocks in the best chain
     if (nCheckDepth <= 0)
-        // Finalcoin: suffices until year 10214. Didn't x4 value due to integer wrap around and upstream compatibility.
+        // Zimbcoin: suffices until year 10214. Didn't x4 value due to integer wrap around and upstream compatibility.
         nCheckDepth = std::numeric_limits<int>::max();
     if (nCheckDepth > chainActive.Height())
         nCheckDepth = chainActive.Height();

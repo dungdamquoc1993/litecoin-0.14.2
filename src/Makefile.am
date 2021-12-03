@@ -66,11 +66,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += finalcoind
+  bin_PROGRAMS += zimbcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += finalcoin-cli finalcoin-tx
+  bin_PROGRAMS += zimbcoin-cli zimbcoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -353,16 +353,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-finalcoind_SOURCES = bitcoind.cpp
-finalcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-finalcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-finalcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+zimbcoind_SOURCES = bitcoind.cpp
+zimbcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+zimbcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zimbcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-finalcoind_SOURCES += bitcoind-res.rc
+zimbcoind_SOURCES += bitcoind-res.rc
 endif
 
-finalcoind_LDADD = \
+zimbcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -375,38 +375,38 @@ finalcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-finalcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+zimbcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-finalcoin_cli_SOURCES = bitcoin-cli.cpp
-finalcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-finalcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-finalcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+zimbcoin_cli_SOURCES = bitcoin-cli.cpp
+zimbcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+zimbcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zimbcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-finalcoin_cli_SOURCES += bitcoin-cli-res.rc
+zimbcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-finalcoin_cli_LDADD = \
+zimbcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-finalcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+zimbcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-finalcoin_tx_SOURCES = bitcoin-tx.cpp
-finalcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-finalcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-finalcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+zimbcoin_tx_SOURCES = bitcoin-tx.cpp
+zimbcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+zimbcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zimbcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-finalcoin_tx_SOURCES += bitcoin-tx-res.rc
+zimbcoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-finalcoin_tx_LDADD = \
+zimbcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,7 +414,7 @@ finalcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-finalcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+zimbcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
